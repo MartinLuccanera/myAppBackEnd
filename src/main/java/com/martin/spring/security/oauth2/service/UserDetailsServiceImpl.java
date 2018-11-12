@@ -1,7 +1,7 @@
-package com.adamzareba.spring.security.oauth2.service;
+package com.martin.spring.security.oauth2.service;
 
-import com.adamzareba.spring.security.oauth2.model.security.User;
-import com.adamzareba.spring.security.oauth2.repository.UserRepository;
+import com.martin.spring.security.oauth2.model.security.User;
+import com.martin.spring.security.oauth2.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

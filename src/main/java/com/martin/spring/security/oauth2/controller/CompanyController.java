@@ -1,7 +1,7 @@
-package com.adamzareba.spring.security.oauth2.controller;
+package com.martin.spring.security.oauth2.controller;
 
-import com.adamzareba.spring.security.oauth2.model.Company;
-import com.adamzareba.spring.security.oauth2.service.CompanyService;
+import com.martin.spring.security.oauth2.model.Company;
+import com.martin.spring.security.oauth2.service.CompanyService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.mvc.ControllerLinkBuilder;

@@ -1,6 +1,6 @@
-package com.adamzareba.spring.security.oauth2.service;
+package com.martin.spring.security.oauth2.service;
 
-import com.adamzareba.spring.security.oauth2.model.Company;
+import com.martin.spring.security.oauth2.model.Company;
 
 import java.util.List;
 

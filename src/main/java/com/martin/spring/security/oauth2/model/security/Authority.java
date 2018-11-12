@@ -1,4 +1,4 @@
-package com.adamzareba.spring.security.oauth2.model.security;
+package com.martin.spring.security.oauth2.model.security;
 
 import org.springframework.security.core.GrantedAuthority;
 

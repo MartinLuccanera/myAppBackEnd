@@ -1,4 +1,4 @@
-package com.adamzareba.spring.security.oauth2.config;
+package com.martin.spring.security.oauth2.config;
 
 import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;

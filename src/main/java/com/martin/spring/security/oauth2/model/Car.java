@@ -1,4 +1,4 @@
-package com.adamzareba.spring.security.oauth2.model;
+package com.martin.spring.security.oauth2.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 

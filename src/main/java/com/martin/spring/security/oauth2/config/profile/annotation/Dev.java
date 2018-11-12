@@ -1,4 +1,4 @@
-package com.adamzareba.spring.security.oauth2.config.profile.annotation;
+package com.martin.spring.security.oauth2.config.profile.annotation;
 
 import org.springframework.context.annotation.Profile;
 

@@ -1,7 +1,7 @@
-package com.adamzareba.spring.security.oauth2;
+package com.martin.spring.security.oauth2;
 
 import static utils.StringUtils.print;
-import com.adamzareba.spring.security.oauth2.config.encryption.Encoders;
+import com.martin.spring.security.oauth2.config.encryption.Encoders;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

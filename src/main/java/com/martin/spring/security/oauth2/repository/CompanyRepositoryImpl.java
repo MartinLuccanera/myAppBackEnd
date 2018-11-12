@@ -1,11 +1,11 @@
-package com.adamzareba.spring.security.oauth2.repository;
+package com.martin.spring.security.oauth2.repository;
 
-import com.adamzareba.spring.security.oauth2.model.Company;
-import com.adamzareba.spring.security.oauth2.model.Company_;
-import com.adamzareba.spring.security.oauth2.model.Department;
-import com.adamzareba.spring.security.oauth2.model.Department_;
-import com.adamzareba.spring.security.oauth2.model.Employee;
-import com.adamzareba.spring.security.oauth2.model.Employee_;
+import com.martin.spring.security.oauth2.model.Company;
+import com.martin.spring.security.oauth2.model.Company_;
+import com.martin.spring.security.oauth2.model.Department;
+import com.martin.spring.security.oauth2.model.Department_;
+import com.martin.spring.security.oauth2.model.Employee;
+import com.martin.spring.security.oauth2.model.Employee_;
 
 import org.springframework.dao.support.DataAccessUtils;
 import org.springframework.stereotype.Repository;

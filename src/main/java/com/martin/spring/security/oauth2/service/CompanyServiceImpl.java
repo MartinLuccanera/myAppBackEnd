@@ -1,7 +1,7 @@
-package com.adamzareba.spring.security.oauth2.service;
+package com.martin.spring.security.oauth2.service;
 
-import com.adamzareba.spring.security.oauth2.model.Company;
-import com.adamzareba.spring.security.oauth2.repository.CompanyRepository;
+import com.martin.spring.security.oauth2.model.Company;
+import com.martin.spring.security.oauth2.repository.CompanyRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

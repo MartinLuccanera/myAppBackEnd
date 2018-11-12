@@ -1,4 +1,4 @@
-package com.adamzareba.spring.security.oauth2.config.server;
+package com.martin.spring.security.oauth2.config.server;
 
 import org.apache.log4j.Logger;
 import org.springframework.core.Ordered;

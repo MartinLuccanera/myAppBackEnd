@@ -1,6 +1,6 @@
-package com.adamzareba.spring.security.oauth2.repository;
+package com.martin.spring.security.oauth2.repository;
 
-import com.adamzareba.spring.security.oauth2.model.security.User;
+import com.martin.spring.security.oauth2.model.security.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
