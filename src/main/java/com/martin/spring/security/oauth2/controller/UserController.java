@@ -15,6 +15,7 @@ import java.util.LinkedHashMap;
 @RequestMapping("/secured/user")
 public class UserController {
     private static final String FETCH_PROFILE_FIELDS = "SELECT * FROM user_profile WHERE username = ?";
+    //private static final String[] columns = {"name", "username", "email", "bio", "birthdate");
 
     @RequestMapping(value = "/profile", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(value = HttpStatus.OK)
@@ -34,11 +35,11 @@ public class UserController {
             //STEP 5: Extract data from result set
             while(rs.next()){
                 //Retrieve by column name
-                result.put("id", String.valueOf(rs.getInt("id")));
                 result.put("name", rs.getString("name"));
                 result.put("username", rs.getString("username"));
                 result.put("email", rs.getString("email"));
                 result.put("bio", rs.getString("bio"));
+                result.put("birthdate", String.valueOf(rs.getDate("birthdate")));
             }
             rs.close();
         }catch(SQLException se){
